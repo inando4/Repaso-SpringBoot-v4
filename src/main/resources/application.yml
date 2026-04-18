@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: spring-boot-masterclass
+  profiles:
+    active: default
+server:
+  port: 0
+agencia:
+  nombre: CIA
