@@ -19,6 +19,6 @@ public class CajeroController {
         int req = contadorRequest.incrementarYObtener();
         int ses = contadorSession.incrementarYObtener();
 
-        return "Valor Request: " + req + " | Valor Session: " + ses;
+        return "(DevTools funciona!) Valor Request: " + req + " | Valor Session: " + ses;
     }
 }
