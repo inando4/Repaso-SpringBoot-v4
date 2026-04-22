@@ -7,3 +7,5 @@ server:
   port: 8081
 agencia:
   nombre: CIA
+sistema:
+  estado: ACTIVO

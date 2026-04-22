@@ -13,6 +13,7 @@ public class SpringBootMasterclassApplication {
     public static void main(String[] args) {
         SpringApplication.run(SpringBootMasterclassApplication.class, args);
     }
+
     // Este @Bean le dice a Spring que ejecute este código justo al arrancar la aplicación
     /*
     /*@Bean
@@ -24,7 +25,7 @@ public class SpringBootMasterclassApplication {
             System.out.println("--- FIN DE LA PRUEBA ---");
         };
     }*/
-
+    /*
     @Bean
     CommandLineRunner pruebaFinal(CuartelGeneral cuartelGeneral, ImpresoraLog impresora){
         return args -> {
@@ -32,5 +33,8 @@ public class SpringBootMasterclassApplication {
             impresora.imprimir("Iniciando sistema");
         };
     }
+     */
+
+
 }
 
