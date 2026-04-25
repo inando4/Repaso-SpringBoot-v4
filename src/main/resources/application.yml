@@ -2,7 +2,7 @@ spring:
   application:
     name: spring-boot-masterclass
   profiles:
-    active: default
+    active: mantenimiento
 server:
   port: 8081
 agencia:

@@ -25,11 +25,10 @@ public class CajeroController {
         return "(DevTools funciona!) Valor Request: " + req + " | Valor Session: " + ses;
     }
 
+    // CONTROLADOR DE SISTEMA, HECHO AQUI PARA NO SOBREEXCEDER ARCHIVOS
     @GetMapping("/estado")
     public String sistemaEstado(){
         return "El sistema actualmente se encuentra: " + estadoSistema;
     }
-
-    // CONTROLADOR DE SISTEMA, HECHO AQUI PARA NO SOBREEXCEDER ARCHIVOS
 
 }
